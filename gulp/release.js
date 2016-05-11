@@ -58,7 +58,7 @@ gulp.task('create-new-tag', function (cb) {
     if (error) {
       return cb(error);
     } else {
-      git.push('origin', 'release', {args: '--tags'}, cb);
+      git.push('origin', 'master', {args: '--tags'}, cb);
     }
   });
 
