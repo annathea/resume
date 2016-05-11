@@ -1,0 +1,50 @@
+doctype html
+html( ng-app="annatheaCore" ng-strict-di)
+  head
+    meta(charset="utf-8")
+    title annatheaCore
+    meta(name="description" content="")
+    meta(name="viewport" content="width=device-width")
+    !='\n'
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css({.tmp, src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp, src}) styles/app.css -->
+    <!-- inject:main:css -->
+    <!-- css files will be automatically insert here -->
+    <!-- end:main:css -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp, src}) styles/example.css -->
+    <!-- inject:example:css -->
+    <!-- css files will be automatically insert here -->
+    <!-- end:example:css -->
+    <!-- endbuild -->
+    !='\n'
+  body
+    div(ui-view)
+    !='\n'
+    <!-- build:js({.tmp, src}) scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- run `gulp inject` to automatically populate bower script dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp, src}) scripts/app.js -->
+    <!-- inject:main:js -->
+    <!-- js files will be automatically insert here -->
+    <!-- end:main:js -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp, src}) scripts/example.js -->
+    <!-- inject:example:js -->
+    <!-- example js files will be automatically insert here -->
+    <!-- end:example:js -->
+
+    <!-- endbuild -->
+    !='\n'

@@ -1,0 +1,19 @@
+{
+  "generator-bower-template": {
+    "version": "1.2.9",
+    "props": {
+      "componentType": "core",
+      "angularModules": [],
+      "resource": {
+        "key": "$http",
+        "module": null
+      },
+      "paths": {
+        "src": "src",
+        "dist": "dist",
+        "e2e": "e2e",
+        "tmp": ".tmp"
+      }
+    }
+  }
+}

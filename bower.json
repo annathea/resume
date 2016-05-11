@@ -1,0 +1,38 @@
+{
+  "name": "annatheaCore",
+  "version": "0.0.0",
+  "dependencies": {
+
+    "angular": "~1.5"
+  },
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "angular-ui-router": "~1",
+    "moment": "~2",
+    "animate.css": "~3.4.0",
+    "angular-material": "^1.0.7",
+    "lodash":"~4",
+    "angular-highlightjs": "^0.5.1",
+    "angular-mocks": "~1.5"
+  },
+  "resolutions": {
+    "angular": "~1.5"
+  },
+  "main":[
+    "./dist/scripts/app.js",
+    "./dist/styles/app.css"
+  ],
+  "ignore":[
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "gulp",
+    "package.json",
+    "e2e",
+    "gulpfile.js",
+    "karma.conf.js",
+    "protractor.conf.js"
+    ]
+}
