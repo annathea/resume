@@ -24,7 +24,7 @@ function style(src){
 function injectFiles(src){
   return gulp.src([
       path.join(conf.paths.src, src.uri, '/**/*.scss'),
-      path.join('!', conf.paths.src,'**/'+src.name+'.scss')
+      path.join('!','**/'+src.name+'.scss')
     ])
 }
 
